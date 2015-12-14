@@ -35,11 +35,15 @@ GEM
     multi_json (1.11.1)
     multipart-post (2.0.0)
     naught (1.0.0)
+    passenger (5.0.22)
+      rack
+      rake (>= 0.8.1)
     rack (1.5.5)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rake (10.4.2)
     rufus-scheduler (2.0.24)
       tzinfo (>= 0.3.22)
     sass (3.2.19)
@@ -86,4 +90,5 @@ PLATFORMS
 
 DEPENDENCIES
   dashing
+  passenger
   twitter (>= 5.9.0)
