@@ -1,0 +1,33 @@
+
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #47bbb3;
+$value-color:       #fff;
+
+$title-color:       #80000b;
+$moreinfo-color:    #80000b;
+
+// ----------------------------------------------------------------------------
+// Widget-pie styles
+// ----------------------------------------------------------------------------
+.widget-pie {
+  h1 {
+    color: #000;
+  }
+
+  .chart_label {
+    font-family: Helvetica-Neue, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+  }
+
+ .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  background-color:white;
+}

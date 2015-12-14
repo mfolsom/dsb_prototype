@@ -1,0 +1,19 @@
+<% content_for :title do %>DSB Moves<% end %>
+<script type='text/javascript'>
+$(function() {
+Dashing.gridsterLayout('[{"col":2,"row":1,"size_x":2,"size_y":2},{"col":1,"row":1,"size_x":1,"size_y":2},{"col":4,"row":1,"size_x":1,"size_y":2}]')
+});
+</script>
+<div class="gridster">
+  <ul>
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="2">
+      <div data-id="moves_frequency" data-view="Pie" data-title="Mobility View" data-moreinfo="#of people on the move"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="sad_stations" data-view="List" data-unordered="true" data-title="Distressed Customers" data-moreinfo="#of unhappy people at stations" style="background-color:#C8111A;"></div>
+    </li>
+     <li data-row="1" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="happy_stations" data-view="List" data-unordered="true" data-title="Happy Customers" data-moreinfo="#of happy people at stations" style="background-color:#51B64F;"></div>
+    </li>
+
+</div>
